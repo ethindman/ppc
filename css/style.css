@@ -1,0 +1,47 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: black;
+	font-family: sans-serif;
+}
+
+div.container {
+	width: 960px;
+	min-height: 500px;
+	background: white;
+	margin: 0 auto;
+}
+
+div.header {
+	min-height: 50px;
+	background: #F5F5F5;
+}
+
+div.body {
+	min-height: 50px;
+	margin: 10px;
+	/*background: purple;*/
+}
+
+div.container-large {
+	display: inline-block;
+	vertical-align: top;
+	width: 56%;
+	background: pink;
+	color: white;
+}
+
+h4.title {
+	background: #FCD049;
+	color: black;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+/*Images*/
+#main-pic {
+	margin: 0px 10px;
+}
