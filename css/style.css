@@ -11,7 +11,7 @@ body {
 div.container {
 	width: 960px;
 	min-height: 500px;
-	background: white;
+	/*background: white;*/
 	margin: 0 auto;
 }
 
@@ -22,26 +22,62 @@ div.header {
 
 div.body {
 	min-height: 50px;
-	margin: 10px;
+	margin: 15px 10px;
 	/*background: purple;*/
 }
 
 div.container-large {
 	display: inline-block;
 	vertical-align: top;
-	width: 56%;
-	background: pink;
+	width: 55%;
 	color: white;
+	background-image:
+  -webkit-linear-gradient(#373737, #777776);
+	background-image:
+  -o-linear-gradient(#373737, #777776);
+	background-image:
+  linear-gradient(#373737, #777776);
+}
+
+div.container-large h5, p {
+		padding: 15px 25px 0px 25px;
+}
+
+div.container-large p:last-child {
+	padding-bottom: 25px;
 }
 
 h4.title {
-	background: #FCD049;
+	background-image:
+  -webkit-linear-gradient(#FCD049, yellow);
+	background-image:
+  -o-linear-gradient(#FCD049, yellow);
+	background-image:
+  linear-gradient(#FCD049, yellow);
 	color: black;
-	padding: 5px;
+	padding: 10px;
 	text-transform: uppercase;
 }
 
 /*Images*/
 #main-pic {
 	margin: 0px 10px;
+	border: 7px solid white;
+}
+
+#logo-bug {
+	border-radius: 5px;
+	margin-left: 5px;
+	padding-top: 13px;
+}
+
+div.caption {
+	color: #979144;
+	margin: 0px 10px;
+}
+
+div.caption p {
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px;
 }
