@@ -19,6 +19,7 @@ div.header {
 	min-height: 50px;
 	background: #F5F5F5;
 	text-align: right;
+	padding-bottom: 15px;
 }
 
 div.header h2 {
@@ -26,16 +27,15 @@ div.header h2 {
 	display: inline-block;
 	vertical-align: top;
 	color: #333343;
-	width: 57%;
-	margin-top: 20px;
+	width: 58.5%;
+	margin-top: 25px;
 	margin-right: 50px;
 }
 
 /*navigation */
 
 nav {
-	margin-right: 20px;
-	padding: 15px;
+	width: 100%;
 	background-image:
   -webkit-linear-gradient(#EBF0F2, #E3E8EC);
 	background-image:
@@ -51,8 +51,9 @@ nav ul {
 }
 
 nav li {
-		display: inline-block;
-		margin-right: 10px;
+	display: inline-block;
+	padding: 15px 12px;
+	border-right: 1px solid #DADDDE;
 }
 
 nav a {
@@ -105,7 +106,7 @@ h4.title {
 
 div.caption {
 	color: #979144;
-	margin: 0px 10px;
+	margin: 0px 16px;
 }
 
 div.caption p {
@@ -125,13 +126,14 @@ div.col-25 {
 	background: white;
 	display: inline-block;
 	vertical-align: top;
+	text-align: left;
 	margin: 5px 10px;
 }
 
 div.col-25 button {
 	background: #FDC700;
 	margin: 12px 0px 5px 75px;
-	border: 4px solid black;
+	border: 3px solid black;
 	cursor: pointer;
 	text-transform: uppercase;
 	padding: 5px;
