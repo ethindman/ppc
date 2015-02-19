@@ -18,6 +18,45 @@ div.container {
 div.header {
 	min-height: 50px;
 	background: #F5F5F5;
+	text-align: right;
+}
+
+div.header h2 {
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: top;
+	color: #333343;
+	width: 57%;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+nav {
+	margin-right: 20px;
+	width: 96.9%;
+	padding: 15px;
+	background-image:
+  -webkit-linear-gradient(#EBF0F2, #E3E8EC);
+	background-image:
+  -o-linear-gradient(#EBF0F2, #E3E8EC);
+	background-image:
+  linear-gradient(#EBF0F2, #E3E8EC);
+}
+
+nav ul {
+	list-style-type: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav li {
+		display: inline-block;
+		margin-right: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #787070;
 }
 
 div.body {
