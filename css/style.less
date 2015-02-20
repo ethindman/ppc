@@ -1,3 +1,12 @@
+/*color variables*/
+
+@lightGrey: #F5F5F5;
+@darkGrey: #373737;
+@smokeGrey: #777776;
+@darkYellow: #FCD049;
+
+/*******************/
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -16,7 +25,7 @@ div.container {
 
 div.header {
 	min-height: 50px;
-	background: #F5F5F5;
+	background: @lightGrey;
 	text-align: right;
 	padding-bottom: 15px;
 	h2 {
@@ -30,16 +39,6 @@ div.header {
 	}
 }
 
-div.header h2 {
-	text-transform: uppercase;
-	display: inline-block;
-	vertical-align: top;
-	color: #333343;
-	width: 58.5%;
-	margin-top: 25px;
-	margin-right: 50px;
-}
-
 /*navigation */
 
 nav {
@@ -50,26 +49,23 @@ nav {
   -o-linear-gradient(#EBF0F2, #E3E8EC);
 	background-image:
   linear-gradient(#EBF0F2, #E3E8EC);
-}
-
-nav ul {
-	list-style-type: none;
-	text-transform: uppercase;
-	font-weight: bold;
-	border-top: 1px solid #DADDDE;
-	text-align: left;
-}
-
-nav li {
-	display: inline-block;
-	padding: 15px 19px;
-	border-right: 1px solid #DADDDE;
-	font-size: 13px;
-}
-
-nav a {
-	text-decoration: none;
-	color: #787070;
+  ul {
+		list-style-type: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		border-top: 1px solid #DADDDE;
+		text-align: left;
+	}
+	li {
+		display: inline-block;
+		padding: 15px 19px;
+		border-right: 1px solid #DADDDE;
+		font-size: 13px;
+	}
+	a {
+		text-decoration: none;
+		color: #787070;
+	}
 }
 
 div.body {
@@ -87,29 +83,27 @@ div.col-50 {
 	width: 55%;
 	color: white;
 	background-image:
-  -webkit-linear-gradient(#373737, #777776);
+  -webkit-linear-gradient(@darkGrey, @smokeGrey);
 	background-image:
-  -o-linear-gradient(#373737, #777776);
+  -o-linear-gradient(@darkGrey, @smokeGrey);
 	background-image:
-  linear-gradient(#373737, #777776);
+  linear-gradient(@darkGrey, @smokeGrey);
   text-align: left;
-}
-
-div.col-50  h5, p {
-	padding: 15px 25px 0px 25px;
-}
-
-div.col-50  p:last-child {
-	padding-bottom: 25px;
+  h5, p {
+		padding: 15px 25px 0px 25px;
+	}
+	p:last-child {
+		padding-bottom: 25px;
+	}
 }
 
 h4.title {
 	background-image:
-  -webkit-linear-gradient(#FCD049, yellow);
+  -webkit-linear-gradient(@darkYellow, yellow);
 	background-image:
-  -o-linear-gradient(#FCD049, yellow);
+  -o-linear-gradient(@darkYellow, yellow);
 	background-image:
-  linear-gradient(#FCD049, yellow);
+  linear-gradient(@darkYellow, yellow);
 	color: black;
 	padding: 10px;
 	text-transform: uppercase;
@@ -118,12 +112,11 @@ h4.title {
 div.caption {
 	color: #979144;
 	margin: 0px 16px;
-}
-
-div.caption p {
-	display: inline-block;
-	vertical-align: top;
-	padding: 15px;
+	p {
+		display: inline-block;
+		vertical-align: top;
+		padding: 15px;
+	}
 }
 
 div.bottom {
@@ -139,25 +132,22 @@ div.col-25 {
 	vertical-align: top;
 	text-align: left;
 	margin: 5px 10px;
-}
-
-div.col-25 p {
-	font-size: 14px;
-}
-
-div.col-25 button {
-	background: #FDC700;
-	margin: 12px 0px 5px 75px;
-	border: 3px solid black;
-	cursor: pointer;
-	text-transform: uppercase;
-	padding: 5px;
-	width: 125px;
-}
-
-div.col-25 img {
-	height: 100px;
-	width: 220px;
+	button {
+		background: #FDC700;
+		margin: 12px 0px 5px 75px;
+		border: 3px solid black;
+		cursor: pointer;
+		text-transform: uppercase;
+		padding: 5px;
+		width: 125px;
+	}
+	img {
+		height: 100px;
+		width: 220px;
+	}
+	p {
+		font-size: 14px;
+	}
 }
 
 /*Images*/
